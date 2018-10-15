@@ -11,8 +11,9 @@ class String
   def letters
     the_letters = []
     for i in 0..self.length-1 do
-      if self[i].match(/[a-zA-Z]/)
-        the_letters << self[i]
+      character = self[i]
+      if character.match(/[a-zA-Z]/)
+        the_letters << character
       end
     end
     the_letters.join
