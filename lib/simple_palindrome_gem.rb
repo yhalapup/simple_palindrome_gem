@@ -11,8 +11,7 @@ class String
   def letters
     the_letters = []
     letter_regex = /[a-z]/i
-    for i in 0..self.length-1 do
-      character = self[i]
+    self.chars.each do |character|
       if character.match(letter_regex)
         the_letters << character
       end
