@@ -10,4 +10,10 @@ RSpec.describe SimplePalindromeGem do
   it "returns true for simple palindrome" do
     expect("racecar".palindrome?).to eq(true)
   end
+
+  xit "returns true for mixed case palindrome" do
+  end
+
+  xit "returns true for palindrome with punctuation" do
+  end
 end
