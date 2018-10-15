@@ -22,6 +22,6 @@ class String
 
   # Returns content for palindrome testing.
   def processed_content
-    self.downcase
+    self.letters.downcase
   end
 end
