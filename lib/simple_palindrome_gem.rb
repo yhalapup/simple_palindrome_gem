@@ -10,9 +10,10 @@ class String
   # Returns the letters in the string.
   def letters
     the_letters = []
+    letter_regex = /[a-z]/i
     for i in 0..self.length-1 do
       character = self[i]
-      if character.match(/[a-zA-Z]/)
+      if character.match(letter_regex)
         the_letters << character
       end
     end
