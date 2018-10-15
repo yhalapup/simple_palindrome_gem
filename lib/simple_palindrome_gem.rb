@@ -1,4 +1,4 @@
-require "simple_palindrome_gem/version"
+require_relative "simple_palindrome_gem/version"
 
 class String
 
