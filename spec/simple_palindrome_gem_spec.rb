@@ -18,12 +18,4 @@ RSpec.describe SimplePalindromeGem do
   it "returns true for palindrome with punctuation" do
     expect("Madam, I'm Adam.".palindrome?).to eq(true)
   end
-
-  describe "#letters" do
-    it "returns word without punctuation" do
-      expect("Madam, I'm Adam.".letters).to eq(
-        "MadamImAdam"
-      )
-    end
-  end
 end
